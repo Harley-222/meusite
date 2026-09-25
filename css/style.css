@@ -5,7 +5,14 @@
 }
 
 body {
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+  margin: 0;
+}
+
+main {
+  flex: 1;
 }
 
 .topo {
@@ -96,13 +103,21 @@ body {
 } 
 .sobremim{
     font-size: 30px;
-    height: 100vh;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   background-color: white;
-   height: 750px;
-   width: 750px;
-   
+   text-align: center;
 } 
+.rodape{
+    background-color: #0058ba; 
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;    
+    padding: 1rem 2rem;   
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
