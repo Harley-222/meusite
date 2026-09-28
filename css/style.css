@@ -77,14 +77,21 @@ body {
     color: #f4c5e3;
 }
 
-.perfil {
+.perfil_link {
+    overflow: hidden;
     border-radius: 50%;
+    border: 3px solid #ffd6f3;
+    transform: scale(1.2); /* aumenta o tamanho da imagem ao todo*/
+}
+
+.perfil {
+    
     width: 100px;
     height: 100px;
-    object-position: center top;
     object-fit: cover;
-    border: 3px solid #ffd6f3;
-    transform: scale(1.2);
+    transform: scale(1.8); /* da o zoom na imagem */
+    object-position: 30% 5%; /* move a imagem dentro da tag a */
+    
 }
 
 .port {
