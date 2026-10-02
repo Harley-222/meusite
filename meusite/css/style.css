@@ -35,3 +35,12 @@
     color: #ff75cf;
     text-decoration: underline;
 }
+.habil{
+     max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+    
+}
